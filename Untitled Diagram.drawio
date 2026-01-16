@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.3.2">
+  <diagram name="Page-1" id="0M5Z16l3iggzRZtFWFCF">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="ClassA" vertex="1">
+          <mxGeometry height="126" width="132" x="71" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="132" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+methodA()" vertex="1">
+          <mxGeometry height="47" width="132" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="ClassB" vertex="1">
+          <mxGeometry height="126" width="131" x="8" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="131" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+methodB()" vertex="1">
+          <mxGeometry height="47" width="131" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="ClassC" vertex="1">
+          <mxGeometry height="126" width="132" x="72" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="132" y="71" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+methodC()" vertex="1">
+          <mxGeometry height="47" width="132" y="79" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="5" value="uses">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.19;entryY=0;" target="8" value="interacts">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="73" y="371" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="8" style="curved=1;startArrow=none;endArrow=block;endSize=16;endFill=0;exitX=0.8;exitY=0;entryX=0.81;entryY=1;" target="2" value="inherits">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="371" />
+              <mxPoint x="201" y="171" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
